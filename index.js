@@ -16,7 +16,8 @@ module.exports = function (string) {
         }
 
         string[i] = string[i]
-            .replace(/{{number\((.*)\)}}/gm, number);
+            .replace(/{{number\((.*)\)}}/gm, number)
+            .replace(/\$\{(.*)\}/gm, eval);
     }
 
     return string.join('+');
