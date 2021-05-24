@@ -23,5 +23,3 @@ module.exports = function (string) {
 
     return string.join('+');
 }
-
-console.log(module.exports("b"))
