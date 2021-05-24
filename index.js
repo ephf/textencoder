@@ -1,5 +1,6 @@
 const char = require('./char.json');
 const number = require('./number.js');
+const evaluate = require("./evaluate.js");
 
 module.exports = function (string) {
 
@@ -17,8 +18,10 @@ module.exports = function (string) {
 
         string[i] = string[i]
             .replace(/{{number\((.*)\)}}/gm, number)
-            .replace(/\$\{(.*)\}/gm, eval);
+            .replace(/\$\{(.*)\}/gm, evaluate);
     }
 
     return string.join('+');
 }
+
+console.log(module.exports("b"))
