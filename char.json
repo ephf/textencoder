@@ -40,7 +40,7 @@
         "(typeof true)[{{number(3)}}]"
     ],
     "m": [
-        "(typeof ${Math.random() * ({{number(100)}})})[{{number(2)}}]"
+        "(typeof ${Math.random() * 10})[{{number(2)}}]"
     ],
     "n": [
         "(typeof ${Math.random() * 100})[0].toLowerCase()",
