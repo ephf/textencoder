@@ -9,5 +9,7 @@ module.exports = function (matched, target) {
           multiple = target / rand;
      }
 
-     return `${rand} * ${multiple}`;
+     multiple /= 2;
+
+     return `(${rand} * (${multiple} * 2))`;
 }
