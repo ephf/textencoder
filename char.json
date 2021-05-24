@@ -1,88 +1,89 @@
 {
     "a": [
-        "Array.toString()[12]",
-        "new Promise(() => {}).catch.toString()[10]"
+        "Array.toString()[{{number(12)}}]",
+        "new Promise(() => {}).catch.toString()[{{number(10)}}]"
     ],
     "b": [
-        "(typeof ${Math.random() * 100})[3]",
+        "(typeof ${Math.random() * ({{number(100)}})})[3]",
         "(typeof true)[0]"
     ],
     "c": [
-        "(typeof {})[4]"
+        "(typeof {})[{{number(4)}}]"
     ],
     "d": [
-        "Number.toString()[30]"
+        "Number.toString()[{{number(30)}}]"
     ],
     "e": [
-        "(typeof [])[3]"
+        "(typeof [])[{{number(3)}}]"
     ],
     "f": [
         "false.toString()[0]"
     ],
     "g": [
-        "(typeof '${Math.random() * 1000}')['12345'.length]"
+        "(typeof '${Math.random() * ({{number(1000)}})}')['12345'.length]"
     ],
     "h": [
-        "new Promise(() => {}).catch.toString()[13]"
+        "new Promise(() => {}).catch.toString()[{{number(13)}}]"
     ],
     "i": [
         "Date.toString()[22]"
     ],
     "j": [
-        "(typeof {})[2]",
-        "JSON.toString()[8].toLowerCase()"
+        "(typeof {})[{{number(2)}}]",
+        "JSON.toString()[{{number(8)}}].toLowerCase()"
     ],
     "k": [
-        "Object.keys.toString()[9]"
+        "Object.keys.toString()[{{number(9)}}]"
     ],
     "l": [
-        "false.toString()[2]",
-        "(typeof true)[3]"
+        "false.toString()[{{number(2)}}]",
+        "(typeof true)[{{number(3)}}]"
     ],
     "m": [
-        "(typeof ${Math.random() * 100})[2]"
+        "(typeof ${Math.random() * ({{number(100)}})})[{{number(2)}}]"
     ],
     "n": [
         "(typeof ${Math.random() * 100})[0].toLowerCase()",
         "(typeof false)[(typeof false).length - 1]"
     ],
     "o": [
-        "(typeof {})[0]",
-        "(typeof true)[1]"
+        "(typeof {e:- - {}})[({{number(10)}}) * 0]",
+        "(typeof !!(true - false  + ({{number(*)}})))[1]"
     ],
     "p": [
-        "Promise.toString()[9].toLowerCase()"
+        "Promise.toString()[{{number(9)}}].toLowerCase()"
     ],
     "q": [
-        "Math.sqrt.toString()[10]"
+        "Math.sqrt.toString()[{{number(10)}}]"
     ],
     "r": [
-        "Math.sqrt.toString()[11]",
-        "Math.random.toString()[9]"
+        "Math.sqrt.toString()[{{number(11)}}]",
+        "Math.random.toString()[{{number(9)}}]"
     ],
     "s": [
-        "Math.sqrt.toString()[9]"
+        "(typeof typeof anything)[+false]",
+        "Math.sqrt.toString()[{{number(9)}}]"
     ],
     "t": [
-        "Math.sqrt.toString()[12]",
+        "Math.sqrt.toString()[{{number(12)}}]",
         "(typeof {})[(typeof {}).length - 1]"
     ],
     "u": [
         "(typeof ${Math.random() * 10})[1]"
     ],
     "v": [
-        "new Date().valueOf.toString()[9]"
+        "new Date().valueOf.toString()[{{number(9)}}]"
     ],
     "w": [
         "Object.keys(console)[Object.keys(console).indexOf('warn')][0]"
     ],
     "x": [
-        "Object.keys(console)[16][3]"
+        "Object.keys(console)[{{number(16)}}][{{number(3)}}]"
     ],
     "y": [
-        "Array.toString()[13]"
+        "Array.toString()[{{number(13)}}]"
     ],
     "z": [
-        "Math.clz32.toString()[11]"
+        "Math.clz32.toString()[{{number(11)}}]"
     ]
 }
