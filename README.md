@@ -4,11 +4,11 @@
 const encode = require('.');
 encode('hello');
 /* output:
-new Promise(() => {}).catch.toString()[13]+(typeof [])[3]+(typeof true)[3]+false.toString()[2]+(typeof true)[1]
+new Promise(() => {}).catch.toString()[0.5865840865048092 * 22.162210498176236]+(typeof [])[0.7309917926478364 * 4.104013246350201]+(typeof true)[0.2969245887389537 * 10.1035754995606]+false.toString()[0.4536571220216302 * 4.4086158971502725]+(typeof {e:- - {}})[(0.2978606954688856 * 33.57274105688307) * 0]
 */
 ```
 
 ```js
-console.log(new Promise(() => {}).catch.toString()[13]+(typeof [])[3]+(typeof true)[3]+false.toString()[2]+(typeof true)[1]); // encoded
+console.log(new Promise(() => {}).catch.toString()[0.5865840865048092 * 22.162210498176236]+(typeof [])[0.7309917926478364 * 4.104013246350201]+(typeof true)[0.2969245887389537 * 10.1035754995606]+false.toString()[0.4536571220216302 * 4.4086158971502725]+(typeof {e:- - {}})[(0.2978606954688856 * 33.57274105688307) * 0]); // encoded
 // output: 'hello'
 ```
