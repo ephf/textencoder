@@ -1,0 +1,88 @@
+{
+    "a": [
+        "Array.toString()[12]",
+        "new Promise(() => {}).catch.toString()[10]"
+    ],
+    "b": [
+        "(typeof ${Math.random() * 100})[3]",
+        "(typeof true)[0]"
+    ],
+    "c": [
+        "(typeof {})[4]"
+    ],
+    "d": [
+        "Number.toString()[30]"
+    ],
+    "e": [
+        "(typeof [])[3]"
+    ],
+    "f": [
+        "false.toString()[0]"
+    ],
+    "g": [
+        "(typeof '${Math.random() * 1000}')['12345'.length]"
+    ],
+    "h": [
+        "new Promise(() => {}).catch.toString()[13]"
+    ],
+    "i": [
+        "Date.toString()[22]"
+    ],
+    "j": [
+        "(typeof {})[2]",
+        "JSON.toString()[8].toLowerCase()"
+    ],
+    "k": [
+        "Object.keys.toString()[9]"
+    ],
+    "l": [
+        "false.toString()[2]",
+        "(typeof true)[3]"
+    ],
+    "m": [
+        "(typeof ${Math.random() * 100})[2]"
+    ],
+    "n": [
+        "(typeof ${Math.random() * 100})[0].toLowerCase()",
+        "(typeof false)[(typeof false).length - 1]"
+    ],
+    "o": [
+        "(typeof {})[0]",
+        "(typeof true)[1]"
+    ],
+    "p": [
+        "Promise.toString()[9].toLowerCase()"
+    ],
+    "q": [
+        "Math.sqrt.toString()[10]"
+    ],
+    "r": [
+        "Math.sqrt.toString()[11]",
+        "Math.random.toString()[9]"
+    ],
+    "s": [
+        "Math.sqrt.toString()[9]"
+    ],
+    "t": [
+        "Math.sqrt.toString()[12]",
+        "(typeof {})[(typeof {}).length - 1]"
+    ],
+    "u": [
+        "(typeof ${Math.random() * 10})[1]"
+    ],
+    "v": [
+        "new Date().valueOf.toString()[9]"
+    ],
+    "w": [
+        "Object.keys(console)[Object.keys(console).indexOf('warn')][0]"
+    ],
+    "x": [
+        "Object.keys(console)[16][3]"
+    ],
+    "y": [
+        "Array.toString()[13]"
+    ],
+    "z": [
+        "Math.clz32.toString()[11]"
+    ]
+}
